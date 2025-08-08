@@ -1,0 +1,14 @@
+//node modules ignore
+node_modules/
+
+//all recomended ignores 
+
+
+.vscode/
+.history/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.tmp
+*.log

@@ -24,7 +24,7 @@ export function FloatingBottomNav() {
       initial={{ y: 100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
-      className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md px-4"
+      className="fixed bottom-[1rem] flex w-full justify-center item-center "
     >
       <div className="bg-background/90 backdrop-blur-xl border border-border/50 rounded-3xl shadow-2xl shadow-black/10 px-3 py-3">
         <div className="flex items-center justify-center gap-2">

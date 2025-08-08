@@ -35,7 +35,7 @@ return (
       className={cn(
         "fixed top-4 left-4 right-4 lg:left-[calc(50vw-372px)] md:translate md:right-auto z-50 transition-all duration-500",
         "px-4 md:px-6 py-3 rounded-2xl border backdrop-blur-xl",
-        "w-auto md:min-w-[600px] md:max-w-4xl",
+        "w-auto lg:min-w-[600px] md:max-w-4xl",
         isScrolled 
           ? "bg-background/80 border-border/50 shadow-2xl shadow-black/10" 
           : "bg-background/60 border-white/20 shadow-lg"
